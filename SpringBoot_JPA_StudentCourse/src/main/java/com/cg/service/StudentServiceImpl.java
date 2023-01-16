@@ -64,6 +64,7 @@ public class StudentServiceImpl implements StudentService {
 		Student std = stdRepo.findById(id)
 				.orElseThrow(() -> new NoSuchStudentFoundException("NoSuchStudentFound with id: " + id));
 		stdRepo.delete(std);
+		//return true;
 	}
 
 	public Student enrollStudentInCourse(Long studentId, Long courseId)

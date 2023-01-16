@@ -1,10 +1,10 @@
-package com.school;
+package com.cg;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StudentCourseAppApplicationTests {
+class SpringBootJpaStudentCourseApplicationTests {
 
 	@Test
 	void contextLoads() {
